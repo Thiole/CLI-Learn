@@ -6,3 +6,6 @@ type Connection interface {
 	Send() error
 	Receive() error
 }
+
+type ConnectionReq struct {
+}
